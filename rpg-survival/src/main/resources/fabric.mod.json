@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "aventura_rpg",
+	"version": "${version}",
+	"name": "Aventura RPG",
+	"description": "Convierte la supervivencia de Minecraft en una aventura RPG progresiva.",
+	"authors": [
+		"CBN"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "All Rights Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aventura.rpg.AventuraRpgMod"
+		]
+	},
+	"mixins": [
+		"aventura_rpg.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
